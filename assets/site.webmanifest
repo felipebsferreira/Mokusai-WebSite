@@ -1,0 +1,14 @@
+{
+  "name": "Mokusai Dojo — Aikido",
+  "short_name": "Mokusai Dojo",
+  "description": "Dojo de Aikido no Cordeiro/Zumbi, Recife. Aulas para crianças, jovens e adultos.",
+  "start_url": "../index.html",
+  "display": "standalone",
+  "background_color": "#f7f4ea",
+  "theme_color": "#1f4031",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
