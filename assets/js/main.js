@@ -168,10 +168,10 @@
       const email = form.email.value.trim();
       const mensagem = form.mensagem.value.trim();
 
-      if (!nome || !telefone) {
-        formNote.textContent = "Por favor, preencha nome e telefone para continuar.";
+      if (!nome) {
+        formNote.textContent = "Por favor, preencha seu nome para continuar.";
         formNote.classList.add("is-error");
-        (nome ? form.telefone : form.nome).focus();
+        form.nome.focus();
         return;
       }
 
@@ -181,8 +181,8 @@
       const lines = [
         "Olá, Mokusai Dojo! Gostaria de agendar uma aula experimental.",
         `Nome: ${nome}`,
-        `Telefone: ${telefone}`,
       ];
+      if (telefone) lines.push(`Telefone: ${telefone}`);
       if (email) lines.push(`E-mail: ${email}`);
       if (mensagem) lines.push(`Mensagem: ${mensagem}`);
 
