@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.mokusai\.com\.br$ [NC]
+RewriteRule ^(.*)$ https://mokusai.com.br/$1 [L,R=301]
