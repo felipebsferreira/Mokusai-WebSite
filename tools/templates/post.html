@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<meta name="theme-color" content="#1f4031">
+<link rel="canonical" href="{{CANONICAL}}">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Mokusai Dojo">
+<meta property="og:title" content="{{POST_TITLE}}">
+<meta property="og:description" content="{{META_DESCRIPTION}}">
+<meta property="og:image" content="{{OG_IMAGE}}">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="{{CANONICAL}}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{POST_TITLE}}">
+<meta name="twitter:description" content="{{META_DESCRIPTION}}">
+<meta name="twitter:image" content="{{OG_IMAGE}}">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16.png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="manifest" href="/assets/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{POST_TITLE}}",
+  "description": "{{META_DESCRIPTION}}",
+  "image": "{{OG_IMAGE}}",
+  "datePublished": "{{DATE_ISO}}",
+  "author": { "@type": "Person", "name": "{{AUTHOR}}" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mokusai Dojo",
+    "logo": { "@type": "ImageObject", "url": "https://mokusai.com.br/assets/img/icon-512.png" }
+  },
+  "mainEntityOfPage": "{{CANONICAL}}"
+}
+</script>
+</head>
+<body>
+
+{{HEADER}}
+
+<main id="conteudo">
+  <header class="post-header">
+    <div class="container">
+      <p class="eyebrow reveal">{{CATEGORY}}</p>
+      <h1 class="reveal">{{POST_TITLE}}</h1>
+      <p class="post-header__meta reveal">
+        <span>{{DATE_LABEL}}</span>
+        <span>{{AUTHOR}}</span>
+      </p>
+    </div>
+  </header>
+
+  <div class="container">
+    <figure class="post-cover reveal">
+      <img src="{{COVER_IMG}}" alt="{{COVER_ALT}}" width="1600" height="900">
+    </figure>
+
+    <article class="post-body reveal">
+{{BODY}}
+    </article>
+
+    <div class="post-cta reveal">
+      <p>Quer sentir como é treinar Aikido na prática?</p>
+      <a class="btn btn--accent" href="/#experimental">Agende sua Aula Experimental</a>
+    </div>
+  </div>
+</main>
+
+{{FOOTER}}
+</body>
+</html>
