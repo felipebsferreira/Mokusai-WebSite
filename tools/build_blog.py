@@ -20,6 +20,19 @@ SITE_URL = "https://mokusai.com.br"
 # Ordem: mais recente primeiro.
 POSTS = [
     {
+        "slug": "aikido-defesa-pessoal-filosofia",
+        "title": "Aikido serve para defesa pessoal? Entenda a filosofia por trás da arte",
+        "excerpt": "Mais do que uma resposta a ataques, o Aikido é construído sobre uma filosofia de harmonia. Entenda como isso funciona na defesa pessoal e no dia a dia.",
+        "meta_description": "O Aikido serve para defesa pessoal? Entenda a filosofia da arte, como ela funciona contra ataques e armas, e seus benefícios para saúde e bem-estar.",
+        "category": "Filosofia",
+        "date_iso": "2026-08-21",
+        "date_label": "21 de agosto de 2026",
+        "author": "Sensei Felipe Alberto",
+        "cover": "/assets/img/filosofia-defesa-pessoal.jpg",
+        "cover_alt": "Ilustração em aquarela de uma projeção de Aikido",
+        "body_file": "aikido-defesa-pessoal-filosofia.html",
+    },
+    {
         "slug": "primeira-aula-de-aikido",
         "title": "O que esperar da sua primeira aula de Aikido",
         "excerpt": "Alongamento, rolamentos, pegadas básicas e as primeiras técnicas de projeção e imobilização: veja como funciona a estrutura de uma aula para quem está começando.",
