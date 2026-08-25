@@ -20,6 +20,19 @@ SITE_URL = "https://mokusai.com.br"
 # Ordem: mais recente primeiro.
 POSTS = [
     {
+        "slug": "aikido-infantil-beneficios",
+        "title": "Aikido infantil: benefícios além do tatame",
+        "excerpt": "Mais do que gastar energia ou aprender a se defender, o Aikido infantil forma hábitos de disciplina, respeito, empatia e autocontrole que acompanham a criança para além do tatame.",
+        "meta_description": "Conheça os benefícios do Aikido infantil além da defesa pessoal: disciplina, coordenação motora, respeito, empatia e autoconfiança para crianças.",
+        "category": "Aikido Infantil",
+        "date_iso": "2026-08-25",
+        "date_label": "25 de agosto de 2026",
+        "author": "Sensei Felipe Alberto",
+        "cover": "/assets/img/aikido-infantil-beneficios.jpg",
+        "cover_alt": "Ilustração em aquarela de crianças praticando Aikido no dojo",
+        "body_file": "aikido-infantil-beneficios.html",
+    },
+    {
         "slug": "aikido-defesa-pessoal-filosofia",
         "title": "Aikido serve para defesa pessoal? Entenda a filosofia por trás da arte",
         "excerpt": "Mais do que uma resposta a ataques, o Aikido é construído sobre uma filosofia de harmonia. Entenda como isso funciona na defesa pessoal e no dia a dia.",
