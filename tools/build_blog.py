@@ -20,6 +20,19 @@ SITE_URL = "https://mokusai.com.br"
 # Ordem: mais recente primeiro.
 POSTS = [
     {
+        "slug": "aikido-para-adultos",
+        "title": "Aikido para adultos: nunca é tarde para começar",
+        "excerpt": "Achar que já passou da idade ou que precisa estar em forma antes de começar são os maiores freios para quem pensa em treinar Aikido na vida adulta. Veja por que nenhum dos dois é verdade.",
+        "meta_description": "Aikido para adultos: entenda por que a idade não é obstáculo, como funciona a progressão gradual do treino e os benefícios físicos, mentais e sociais para quem começa mais tarde.",
+        "category": "Para Adultos",
+        "date_iso": "2026-09-15",
+        "date_label": "15 de setembro de 2026",
+        "author": "Sensei Felipe Alberto",
+        "cover": "/assets/img/aikido-para-adultos.jpg",
+        "cover_alt": "Ilustração em aquarela de adultos praticando Aikido no dojo",
+        "body_file": "aikido-para-adultos.html",
+    },
+    {
         "slug": "aikido-infantil-beneficios",
         "title": "Aikido infantil: benefícios além do tatame",
         "excerpt": "Mais do que gastar energia ou aprender a se defender, o Aikido infantil forma hábitos de disciplina, respeito, empatia e autocontrole que acompanham a criança para além do tatame.",
