@@ -20,6 +20,19 @@ SITE_URL = "https://mokusai.com.br"
 # Ordem: mais recente primeiro.
 POSTS = [
     {
+        "slug": "aikido-para-mulheres",
+        "title": "Aikido para mulheres: por que a arte é uma aliada na autoconfiança e na segurança pessoal",
+        "excerpt": "Baseado em alavancas e tempo, não em força bruta, o Aikido oferece às mulheres uma defesa pessoal realista e um ganho de confiança que vai muito além do tatame.",
+        "meta_description": "Aikido para mulheres: entenda por que a técnica não depende de força física, como o treino desenvolve autoconfiança e defesa pessoal realista contra situações comuns de agressão.",
+        "category": "Para Mulheres",
+        "date_iso": "2026-09-27",
+        "date_label": "27 de setembro de 2026",
+        "author": "Sensei Felipe Alberto",
+        "cover": "/assets/img/aikido-para-mulheres.jpg",
+        "cover_alt": "Ilustração em aquarela de uma mulher aplicando uma técnica de Aikido no dojo",
+        "body_file": "aikido-para-mulheres.html",
+    },
+    {
         "slug": "aikido-para-adultos",
         "title": "Aikido para adultos: nunca é tarde para começar",
         "excerpt": "Achar que já passou da idade ou que precisa estar em forma antes de começar são os maiores freios para quem pensa em treinar Aikido na vida adulta. Veja por que nenhum dos dois é verdade.",
