@@ -20,6 +20,19 @@ SITE_URL = "https://mokusai.com.br"
 # Ordem: mais recente primeiro.
 POSTS = [
     {
+        "slug": "aikido-terceira-idade",
+        "title": "Aikido na terceira idade: equilíbrio, mobilidade e autonomia no tatame",
+        "excerpt": "Sem depender de impacto, velocidade ou força explosiva, o Aikido se adapta ao ritmo de quem está na terceira idade e ajuda a manter equilíbrio, mobilidade e vida social ativa.",
+        "meta_description": "Aikido na terceira idade: entenda como o treino melhora equilíbrio e reduz risco de quedas, respeita o ritmo de cada aluno e traz benefícios cognitivos e sociais para idosos.",
+        "category": "Terceira Idade",
+        "date_iso": "2026-10-10",
+        "date_label": "10 de outubro de 2026",
+        "author": "Sensei Felipe Alberto",
+        "cover": "/assets/img/aikido-terceira-idade.jpg",
+        "cover_alt": "Ilustração em aquarela de uma idosa aplicando uma técnica de Aikido no dojo",
+        "body_file": "aikido-terceira-idade.html",
+    },
+    {
         "slug": "aikido-para-mulheres",
         "title": "Aikido para mulheres: por que a arte é uma aliada na autoconfiança e na segurança pessoal",
         "excerpt": "Baseado em alavancas e tempo, não em força bruta, o Aikido oferece às mulheres uma defesa pessoal realista e um ganho de confiança que vai muito além do tatame.",
